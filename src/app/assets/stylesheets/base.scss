@@ -4,8 +4,9 @@
   body {
     @apply min-h-screen font-poppins text-[14px] tracking-[0.15px] text-black/[.87];
   }
+/* Previous way of doing but give issues with caching and font layout flickering */
 
-  @font-face {
+  /* @font-face {
     font-family: Poppins_Regular;
     src: url("/fonts/Poppins-Regular.ttf");
     font-display: swap;
@@ -21,7 +22,7 @@
     font-family: Poppins_Bold;
     src: url("/fonts/Poppins-Bold.ttf");
     font-display: swap;
-  }
+  } */
 
 
   body::-webkit-scrollbar {
