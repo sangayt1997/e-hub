@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import './assets/stylesheets/global.scss';
+import './stylesheets/global.scss';
 import { poppins_bold, poppins_medium, poppins_regular } from './font/font';
 
 export const metadata: Metadata = {
