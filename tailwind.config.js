@@ -15,8 +15,12 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
   // Adding the color variables which are not working in saflist
-  safelist: [],
+  safelist: [
+    "mysticBlue"
+  ],
+
   theme: {
     colors: {
       transparent: "transparent",
@@ -26,6 +30,7 @@ module.exports = {
       warning: withOpacityValue("--warning"),
       danger: withOpacityValue("--danger"),
       info: withOpacityValue("--info"),
+      mysticBlue: "var(--mystic-blue)",
       primary: {
         50: "var(--primary-50)",
         60: "var(--primary-60)",

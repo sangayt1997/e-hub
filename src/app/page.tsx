@@ -1,14 +1,8 @@
 export default function Home() {
   return (
     <main>
-      <p className="font-poppins_medium">eletronic hub store</p>
-      <span className="material-icons">face</span>
-      <span className="material-icons">
-        assignment
-      </span>
-      <span className="material-icons-outlined">
-        home
-      </span>
+      <p className="text-white/[0.8] font-poppins_medium uppercase">eletronic hub store</p>
+      <span className="text-white material-icons">face</span>
     </main>
   )
 }
