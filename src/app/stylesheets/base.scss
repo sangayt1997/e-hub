@@ -2,7 +2,7 @@
 
 @layer base {
   body {
-    @apply min-h-screen font-poppins text-[14px] tracking-[0.15px] text-black/[.87];
+    @apply bg-mysticBlue min-h-screen font-poppins text-[14px] tracking-[0.15px] text-black/[.87];
   }
 
   body::-webkit-scrollbar {
