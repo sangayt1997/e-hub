@@ -47,14 +47,15 @@ module.exports = {
       },
       secondary: {
         50: "var(--secondary-50)",
-        60: "var(--secondary-60)",
         100: "var(--secondary-100)",
         200: "var(--secondary-200)",
-        250: "var(--secondary-250)",
         300: "var(--secondary-300)",
         400: "var(--secondary-400)",
         500: "var(--secondary-500)",
         600: "var(--secondary-600)",
+        700: "var(--secondary-700)",
+        800: "var(--secondary-800)",
+        900: "var(--secondary-900)",
       },
       neutral: {
         50: "var(--neutral-50)",
