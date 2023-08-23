@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import './stylesheets/global.scss';
-import { poppins_bold, poppins_medium, poppins_regular } from './font/font';
+import { poppins_bold, poppins_medium, poppins_regular } from '../fonts/fonts';
 
 export const metadata: Metadata = {
-  title: 'e-hub',
+  title: 'e-hub - Your Gateway to Gadgetry Galore!',
   description: 'Your Gateway to Gadgetry Galore!',
 }
 
